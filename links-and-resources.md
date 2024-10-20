@@ -39,4 +39,5 @@ NOTE: Most of these are old V2 and outdated, but many of the concepts (other tha
 - [Heck](https://discord.gg/rrZf3kapeh)
 - [Beat Saber Mapping](https://discord.gg/ArT4BTQ)
 - [Beat Saber Modding Group](https://discord.gg/beatsabermods)
+- [ChroMapper](https://discord.gg/YmEt9EZ8pw)
 - [My Personal Server](https://discord.gg/3P9HzE33)

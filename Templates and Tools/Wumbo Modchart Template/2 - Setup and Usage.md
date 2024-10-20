@@ -65,11 +65,22 @@ Similarly to how we closed up sections in the difficulty files using the arrows,
 
 Take your time to look through the options and settings, and change whatever you need to change.
 Most options will either be a: 
-- bool -> `true/false` (or sometimes `1/0` respectively)
-- number -> "int" = whole number `420`, "float" = number with decimal points `420.69`
-- string -> literal words defined by `"quotation marks"`
-- array -> any of the above, but in between square brackets - `[usedToJoinMultipleThingsTogether, seperated, byCommas]`
-
+* bool -> `true/false` Bool is 0 for false, and literally anything else for true btw EX:
+    * `fake: true`
+    * `uninteractable: true`
+    * `active: false`
+* number -> '**int**' (Integer / Whole Number): **420**. OR '**float**' (Number with decimal precision): **420.69**. EX:
+    * `et: 6` (int)
+    * `b: 50.75` (float)
+    * `w: 2` (int)
+* string -> characters(Abc, 123, symbols, etc...) inside "quotes" EX:
+    * `track: "player"`
+    * `easing: "easeInOutQuad"`
+    * `dissolve: "pointDefition_dissolve1"`
+* array -> everything above, but grouped in square brackets. EX:
+    * `position: [0, 0, 5.5]` (number array that represents the position of an object (XYZ))
+    * `childrenTracks: ["player", "notes", "lights_1"]` (string array that groups track names together to be used in a assignTrackParent event)
+  
 ![image](https://github.com/user-attachments/assets/b60f4ffc-ef70-4783-b6b6-4ba58430328e)
 
 - once you have everything set up there, feel free to collapse that section again with the arrow.
